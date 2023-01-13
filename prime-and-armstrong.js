@@ -1,4 +1,4 @@
-primeNumber(let n){
+function rimeNumber(n){
     for(let i=2;i*i<=n;i++){
         if(n%i===0)
         return true;
@@ -7,7 +7,7 @@ primeNumber(let n){
     return false;
 }
 
-armstrongNumber(let n){
+function armstrongNumber(n){
     let temp=n;
     let res=0;
     while(temp){
